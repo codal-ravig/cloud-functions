@@ -1,0 +1,514 @@
+{
+  "level": 30,
+  "time": "2026-09-10T07:51:41.302Z",
+  "service": "cloud-functions",
+  "environment": "production",
+  "region": "iad1",
+  "deploymentId": "dpl_H7LFL9SnZn3X2yBHtsrHg3Vh3Duh",
+  "correlationId": "dd4b50ad-7292-4341-9b40-b2c93d8b37f3",
+  "method": "POST",
+  "pathname": "/api/extensions/algolia-sync",
+  "userAgent": "axios/1.13.6",
+  "extension": "elastic-path-algolia",
+  "payloadSize": 13204,
+  "duration": 3,
+  "syncData": {
+    "requests": [
+      {
+        "action": "updateObject",
+        "indexName": "Test_Catalogue_9889e031-temp",
+        "body": {
+          "objectID": "240f3b3b-8467-4888-b843-80d35d6640d2",
+          "is_child": 0,
+          "ep_attributes": {
+            "store_id": "0edac2ce-efa2-4589-a386-51fc0b9eacb5",
+            "base_product_id": "",
+            "name": "Almond Label",
+            "slug": "almond-label-21110",
+            "sku": "21110",
+            "status": "live",
+            "description": "Almond Label PhotoCake® Edible Image® Merchandising Label",
+            "admin_attributes": {
+              "allow_backorders": "No",
+              "case_pack_qty": "0",
+              "import_batch_date": "2026-08-06",
+              "import_source": "salsify-xlsx-2026-08-06",
+              "pallet_qty": "0",
+              "shipment_group": "photocake",
+              "vendor": "3704 - DecoPac"
+            },
+            "commodity_type": "physical",
+            "base_product": false,
+            "upc_ean": "607772211100",
+            "manufacturer_part_num": "21110",
+            "created_at": "2026-08-10T16:22:13.58Z",
+            "updated_at": "2026-09-10T07:51:18.942Z",
+            "published_at": "2026-09-10T07:51:22.467Z",
+            "tags": [
+              "source:salsify-xlsx-2026-08-06",
+              "category-group:pcml",
+              "label",
+              "license:non-licensed"
+            ]
+          },
+          "ep_meta": {
+            "catalog_id": "9889e031-d326-49dd-abf7-90266150c6fa",
+            "pricebook_id": "",
+            "catalog_source": "pim",
+            "bread_crumbs": {
+              "89c65e8d-53ea-4120-ba0b-4f20e6a18723": [
+                "d7755088-4929-42cc-ac2a-8bcb280595ae"
+              ]
+            },
+            "bread_crumb_nodes": ["89c65e8d-53ea-4120-ba0b-4f20e6a18723"],
+            "product_types": ["standard"]
+          },
+          "ep_published_at": "2026-09-10T07:51:22.467Z",
+          "ep_product_types": null,
+          "ep_tags": [
+            "source:salsify-xlsx-2026-08-06",
+            "category-group:pcml",
+            "label",
+            "license:non-licensed"
+          ],
+          "ep_base_product": false,
+          "ep_main_image_url": "https://images.salsify.com/image/upload/s--wt3MLmp0--/c_limit,cs_srgb,h_600,w_600/mbzxj8jyoyhwfn8rqc0s.jpg",
+          "ep_description": "Almond Label PhotoCake® Edible Image® Merchandising Label",
+          "ep_name": "Almond Label",
+          "ep_slug_categories": { "lvl0": "refreshing" },
+          "ep_name_plus_slug_categories": { "lvl0": "Refreshing#refreshing" },
+          "ep_categories": { "lvl0": "Refreshing" },
+          "ep_slug": "almond-label-21110",
+          "ep_sku": "21110"
+        }
+      },
+      {
+        "action": "updateObject",
+        "indexName": "Test_Catalogue_9889e031-temp",
+        "body": {
+          "objectID": "f15a4340-1639-44ba-a2b1-7c655988cddc",
+          "is_child": 0,
+          "ep_attributes": {
+            "store_id": "0edac2ce-efa2-4589-a386-51fc0b9eacb5",
+            "base_product_id": "",
+            "name": "Carrot Label",
+            "slug": "carrot-label-21123",
+            "sku": "21123",
+            "status": "live",
+            "description": "Carrot Label PhotoCake® Edible Image® Merchandising Label",
+            "admin_attributes": {
+              "allow_backorders": "No",
+              "case_pack_qty": "0",
+              "import_batch_date": "2026-08-06",
+              "import_source": "salsify-xlsx-2026-08-06",
+              "pallet_qty": "0",
+              "shipment_group": "photocake",
+              "vendor": "3704 - DecoPac"
+            },
+            "commodity_type": "physical",
+            "base_product": false,
+            "upc_ean": "607772211230",
+            "manufacturer_part_num": "21123",
+            "created_at": "2026-08-10T16:22:14.921Z",
+            "updated_at": "2026-09-10T07:51:18.942Z",
+            "published_at": "2026-09-10T07:51:22.467Z",
+            "tags": [
+              "source:salsify-xlsx-2026-08-06",
+              "category-group:pcml",
+              "label",
+              "license:non-licensed"
+            ]
+          },
+          "ep_meta": {
+            "catalog_id": "9889e031-d326-49dd-abf7-90266150c6fa",
+            "pricebook_id": "",
+            "catalog_source": "pim",
+            "bread_crumbs": {
+              "89c65e8d-53ea-4120-ba0b-4f20e6a18723": [
+                "d7755088-4929-42cc-ac2a-8bcb280595ae"
+              ]
+            },
+            "bread_crumb_nodes": ["89c65e8d-53ea-4120-ba0b-4f20e6a18723"],
+            "product_types": ["standard"]
+          },
+          "ep_published_at": "2026-09-10T07:51:22.467Z",
+          "ep_product_types": null,
+          "ep_tags": [
+            "source:salsify-xlsx-2026-08-06",
+            "category-group:pcml",
+            "label",
+            "license:non-licensed"
+          ],
+          "ep_base_product": false,
+          "ep_main_image_url": "https://images.salsify.com/image/upload/s--IM_NazRN--/c_limit,cs_srgb,h_600,w_600/jddl4e4khnd55latxj3f.jpg",
+          "ep_description": "Carrot Label PhotoCake® Edible Image® Merchandising Label",
+          "ep_name": "Carrot Label",
+          "ep_slug_categories": { "lvl0": "refreshing" },
+          "ep_name_plus_slug_categories": { "lvl0": "Refreshing#refreshing" },
+          "ep_categories": { "lvl0": "Refreshing" },
+          "ep_slug": "carrot-label-21123",
+          "ep_sku": "21123"
+        }
+      },
+      {
+        "action": "updateObject",
+        "indexName": "Test_Catalogue_9889e031-temp",
+        "body": {
+          "objectID": "39b4677b-723b-47be-a8c3-50faa9aa894c",
+          "is_child": 0,
+          "ep_attributes": {
+            "store_id": "0edac2ce-efa2-4589-a386-51fc0b9eacb5",
+            "base_product_id": "",
+            "name": "Cream Cheese Label",
+            "slug": "cream-cheese-label-21136",
+            "sku": "21136",
+            "status": "live",
+            "description": "Cream Cheese Label PhotoCake® Edible Image® Merchandising Label",
+            "admin_attributes": {
+              "allow_backorders": "No",
+              "case_pack_qty": "0",
+              "import_batch_date": "2026-08-06",
+              "import_source": "salsify-xlsx-2026-08-06",
+              "pallet_qty": "0",
+              "shipment_group": "photocake",
+              "vendor": "3704 - DecoPac"
+            },
+            "commodity_type": "physical",
+            "base_product": false,
+            "upc_ean": "607772211360",
+            "manufacturer_part_num": "21136",
+            "created_at": "2026-08-10T16:22:16.539Z",
+            "updated_at": "2026-09-10T07:51:18.942Z",
+            "published_at": "2026-09-10T07:51:22.467Z",
+            "tags": [
+              "source:salsify-xlsx-2026-08-06",
+              "category-group:pcml",
+              "label",
+              "license:non-licensed"
+            ]
+          },
+          "ep_meta": {
+            "catalog_id": "9889e031-d326-49dd-abf7-90266150c6fa",
+            "pricebook_id": "",
+            "catalog_source": "pim",
+            "bread_crumbs": {
+              "89c65e8d-53ea-4120-ba0b-4f20e6a18723": [
+                "d7755088-4929-42cc-ac2a-8bcb280595ae"
+              ]
+            },
+            "bread_crumb_nodes": ["89c65e8d-53ea-4120-ba0b-4f20e6a18723"],
+            "product_types": ["standard"]
+          },
+          "ep_published_at": "2026-09-10T07:51:22.467Z",
+          "ep_product_types": null,
+          "ep_tags": [
+            "source:salsify-xlsx-2026-08-06",
+            "category-group:pcml",
+            "label",
+            "license:non-licensed"
+          ],
+          "ep_base_product": false,
+          "ep_main_image_url": "https://images.salsify.com/image/upload/s--fFHFRktY--/c_limit,cs_srgb,h_600,w_600/layogs6xcu84tknc5suo.jpg",
+          "ep_description": "Cream Cheese Label PhotoCake® Edible Image® Merchandising Label",
+          "ep_name": "Cream Cheese Label",
+          "ep_slug_categories": { "lvl0": "refreshing" },
+          "ep_name_plus_slug_categories": { "lvl0": "Refreshing#refreshing" },
+          "ep_categories": { "lvl0": "Refreshing" },
+          "ep_slug": "cream-cheese-label-21136",
+          "ep_sku": "21136"
+        }
+      },
+      {
+        "action": "updateObject",
+        "indexName": "Test_Catalogue_9889e031-temp",
+        "body": {
+          "objectID": "93bd02dc-f5cc-4c43-b4bd-89acc1ddf1f2",
+          "is_child": 0,
+          "ep_attributes": {
+            "store_id": "0edac2ce-efa2-4589-a386-51fc0b9eacb5",
+            "base_product_id": "",
+            "name": "No Sugar Added Label",
+            "slug": "no-sugar-added-label-21150",
+            "sku": "21150",
+            "status": "live",
+            "description": "No Sugar Added Label PhotoCake® Edible Image® Merchandising Label",
+            "admin_attributes": {
+              "allow_backorders": "No",
+              "case_pack_qty": "0",
+              "import_batch_date": "2026-08-06",
+              "import_source": "salsify-xlsx-2026-08-06",
+              "pallet_qty": "0",
+              "shipment_group": "photocake",
+              "vendor": "3704 - DecoPac"
+            },
+            "commodity_type": "physical",
+            "base_product": false,
+            "upc_ean": "607772211506",
+            "manufacturer_part_num": "21150",
+            "created_at": "2026-08-10T16:22:17.672Z",
+            "updated_at": "2026-09-10T07:51:18.942Z",
+            "published_at": "2026-09-10T07:51:22.467Z",
+            "tags": [
+              "source:salsify-xlsx-2026-08-06",
+              "category-group:pcml",
+              "label",
+              "license:non-licensed"
+            ]
+          },
+          "ep_meta": {
+            "catalog_id": "9889e031-d326-49dd-abf7-90266150c6fa",
+            "pricebook_id": "",
+            "catalog_source": "pim",
+            "bread_crumbs": {
+              "89c65e8d-53ea-4120-ba0b-4f20e6a18723": [
+                "d7755088-4929-42cc-ac2a-8bcb280595ae"
+              ]
+            },
+            "bread_crumb_nodes": ["89c65e8d-53ea-4120-ba0b-4f20e6a18723"],
+            "product_types": ["standard"]
+          },
+          "ep_published_at": "2026-09-10T07:51:22.467Z",
+          "ep_product_types": null,
+          "ep_tags": [
+            "source:salsify-xlsx-2026-08-06",
+            "category-group:pcml",
+            "label",
+            "license:non-licensed"
+          ],
+          "ep_base_product": false,
+          "ep_main_image_url": "https://images.salsify.com/image/upload/s--6Fc5YLt6--/c_limit,cs_srgb,h_600,w_600/pdgxrwnmncf1u2khwbjt.jpg",
+          "ep_description": "No Sugar Added Label PhotoCake® Edible Image® Merchandising Label",
+          "ep_name": "No Sugar Added Label",
+          "ep_slug_categories": { "lvl0": "refreshing" },
+          "ep_name_plus_slug_categories": { "lvl0": "Refreshing#refreshing" },
+          "ep_categories": { "lvl0": "Refreshing" },
+          "ep_slug": "no-sugar-added-label-21150",
+          "ep_sku": "21150"
+        }
+      },
+      {
+        "action": "updateObject",
+        "indexName": "Test_Catalogue_9889e031-temp",
+        "body": {
+          "objectID": "1e2377f7-0df3-49d7-9425-3b2ba9ec05ea",
+          "is_child": 0,
+          "ep_attributes": {
+            "store_id": "0edac2ce-efa2-4589-a386-51fc0b9eacb5",
+            "base_product_id": "",
+            "name": "Pumpkin Spice Label",
+            "slug": "pumpkin-spice-label-21167",
+            "sku": "21167",
+            "status": "live",
+            "description": "Pumpkin Spice Label PhotoCake® Edible Image® Merchandising Label",
+            "admin_attributes": {
+              "allow_backorders": "No",
+              "case_pack_qty": "0",
+              "import_batch_date": "2026-08-06",
+              "import_source": "salsify-xlsx-2026-08-06",
+              "pallet_qty": "0",
+              "shipment_group": "photocake",
+              "vendor": "3704 - DecoPac"
+            },
+            "commodity_type": "physical",
+            "base_product": false,
+            "upc_ean": "607772211674",
+            "manufacturer_part_num": "21167",
+            "created_at": "2026-08-10T16:22:18.809Z",
+            "updated_at": "2026-09-10T07:51:18.942Z",
+            "published_at": "2026-09-10T07:51:22.467Z",
+            "tags": [
+              "source:salsify-xlsx-2026-08-06",
+              "category-group:pcml",
+              "label",
+              "license:non-licensed"
+            ]
+          },
+          "ep_meta": {
+            "catalog_id": "9889e031-d326-49dd-abf7-90266150c6fa",
+            "pricebook_id": "",
+            "catalog_source": "pim",
+            "bread_crumbs": {
+              "89c65e8d-53ea-4120-ba0b-4f20e6a18723": [
+                "d7755088-4929-42cc-ac2a-8bcb280595ae"
+              ]
+            },
+            "bread_crumb_nodes": ["89c65e8d-53ea-4120-ba0b-4f20e6a18723"],
+            "product_types": ["standard"]
+          },
+          "ep_published_at": "2026-09-10T07:51:22.467Z",
+          "ep_product_types": null,
+          "ep_tags": [
+            "source:salsify-xlsx-2026-08-06",
+            "category-group:pcml",
+            "label",
+            "license:non-licensed"
+          ],
+          "ep_base_product": false,
+          "ep_main_image_url": "https://images.salsify.com/image/upload/s--AMLoYlSy--/c_limit,cs_srgb,h_600,w_600/pmi2hjqsvsd4p8zd0ogg.jpg",
+          "ep_description": "Pumpkin Spice Label PhotoCake® Edible Image® Merchandising Label",
+          "ep_name": "Pumpkin Spice Label",
+          "ep_slug_categories": { "lvl0": "refreshing" },
+          "ep_name_plus_slug_categories": { "lvl0": "Refreshing#refreshing" },
+          "ep_categories": { "lvl0": "Refreshing" },
+          "ep_slug": "pumpkin-spice-label-21167",
+          "ep_sku": "21167"
+        }
+      },
+      {
+        "action": "updateObject",
+        "indexName": "Test_Catalogue_9889e031-temp",
+        "body": {
+          "objectID": "0472e9b2-99c1-43ff-ac76-3c64d407ff55",
+          "is_child": 0,
+          "ep_attributes": {
+            "store_id": "0edac2ce-efa2-4589-a386-51fc0b9eacb5",
+            "base_product_id": "",
+            "name": "Buttermilk Label",
+            "slug": "buttermilk-label-21898",
+            "sku": "21898",
+            "status": "live",
+            "description": "Buttermilk Label PhotoCake® Edible Image® Merchandising Label",
+            "price": {
+              "USD": {
+                "amount": 300,
+                "includes_tax": false,
+                "tiers": null,
+                "formatted_price": "$3.00",
+                "float_price": 3
+              }
+            },
+            "admin_attributes": {
+              "allow_backorders": "No",
+              "case_pack_qty": "0",
+              "import_batch_date": "2026-08-06",
+              "import_source": "salsify-xlsx-2026-08-06",
+              "pallet_qty": "0",
+              "shipment_group": "photocake",
+              "vendor": "3704 - DecoPac"
+            },
+            "commodity_type": "physical",
+            "base_product": false,
+            "upc_ean": "607772218987",
+            "manufacturer_part_num": "21898",
+            "created_at": "2026-08-10T16:22:20.928Z",
+            "updated_at": "2026-09-10T07:51:18.942Z",
+            "published_at": "2026-09-10T07:51:22.467Z",
+            "tags": [
+              "source:salsify-xlsx-2026-08-06",
+              "category-group:pcml",
+              "label",
+              "license:non-licensed"
+            ]
+          },
+          "ep_meta": {
+            "catalog_id": "9889e031-d326-49dd-abf7-90266150c6fa",
+            "pricebook_id": "a7639d87-27cb-4231-89eb-206e2bead70d",
+            "catalog_source": "pim",
+            "bread_crumbs": {
+              "89c65e8d-53ea-4120-ba0b-4f20e6a18723": [
+                "d7755088-4929-42cc-ac2a-8bcb280595ae"
+              ]
+            },
+            "bread_crumb_nodes": ["89c65e8d-53ea-4120-ba0b-4f20e6a18723"],
+            "product_types": ["standard"]
+          },
+          "ep_published_at": "2026-09-10T07:51:22.467Z",
+          "ep_product_types": null,
+          "ep_tags": [
+            "source:salsify-xlsx-2026-08-06",
+            "category-group:pcml",
+            "label",
+            "license:non-licensed"
+          ],
+          "ep_base_product": false,
+          "ep_main_image_url": "https://images.salsify.com/image/upload/s--WxiPNGJb--/c_limit,cs_srgb,h_600,w_600/dasp9wlhdbhpkkpxendx.jpg",
+          "ep_price": {
+            "USD": {
+              "amount": 300,
+              "includes_tax": false,
+              "tiers": null,
+              "formatted_price": "$3.00",
+              "float_price": 3
+            }
+          },
+          "ep_description": "Buttermilk Label PhotoCake® Edible Image® Merchandising Label",
+          "ep_name": "Buttermilk Label",
+          "ep_slug_categories": { "lvl0": "refreshing" },
+          "ep_name_plus_slug_categories": { "lvl0": "Refreshing#refreshing" },
+          "ep_categories": { "lvl0": "Refreshing" },
+          "ep_slug": "buttermilk-label-21898",
+          "ep_sku": "21898"
+        }
+      },
+      {
+        "action": "updateObject",
+        "indexName": "Test_Catalogue_9889e031-temp",
+        "body": {
+          "objectID": "a26304ef-e24b-4cb3-afa4-1fa4ae1a38e6",
+          "is_child": 0,
+          "ep_attributes": {
+            "store_id": "0edac2ce-efa2-4589-a386-51fc0b9eacb5",
+            "base_product_id": "",
+            "name": "Vegan Label",
+            "slug": "vegan-label-24974",
+            "sku": "24974",
+            "status": "live",
+            "description": "Vegan Label PhotoCake® Edible Image® Merchandising Label",
+            "admin_attributes": {
+              "allow_backorders": "No",
+              "case_pack_qty": "0",
+              "import_batch_date": "2026-08-06",
+              "import_source": "salsify-xlsx-2026-08-06",
+              "pallet_qty": "0",
+              "shipment_group": "photocake",
+              "vendor": "3704 - DecoPac"
+            },
+            "commodity_type": "physical",
+            "base_product": false,
+            "upc_ean": "607772249745",
+            "manufacturer_part_num": "24974",
+            "created_at": "2026-08-10T16:22:22.017Z",
+            "updated_at": "2026-09-10T07:51:18.942Z",
+            "published_at": "2026-09-10T07:51:22.467Z",
+            "tags": [
+              "source:salsify-xlsx-2026-08-06",
+              "category-group:pcml",
+              "license:non-licensed",
+              "vegan-label"
+            ]
+          },
+          "ep_meta": {
+            "catalog_id": "9889e031-d326-49dd-abf7-90266150c6fa",
+            "pricebook_id": "",
+            "catalog_source": "pim",
+            "bread_crumbs": {
+              "89c65e8d-53ea-4120-ba0b-4f20e6a18723": [
+                "d7755088-4929-42cc-ac2a-8bcb280595ae"
+              ]
+            },
+            "bread_crumb_nodes": ["89c65e8d-53ea-4120-ba0b-4f20e6a18723"],
+            "product_types": ["standard"]
+          },
+          "ep_published_at": "2026-09-10T07:51:22.467Z",
+          "ep_product_types": null,
+          "ep_tags": [
+            "source:salsify-xlsx-2026-08-06",
+            "category-group:pcml",
+            "license:non-licensed",
+            "vegan-label"
+          ],
+          "ep_base_product": false,
+          "ep_main_image_url": "https://images.salsify.com/image/upload/s--h_oaltdv--/c_limit,cs_srgb,h_600,w_600/kbqtl1ixd5plvgqn8v2t.jpg",
+          "ep_description": "Vegan Label PhotoCake® Edible Image® Merchandising Label",
+          "ep_name": "Vegan Label",
+          "ep_slug_categories": { "lvl0": "refreshing" },
+          "ep_name_plus_slug_categories": { "lvl0": "Refreshing#refreshing" },
+          "ep_categories": { "lvl0": "Refreshing" },
+          "ep_slug": "vegan-label-24974",
+          "ep_sku": "24974"
+        }
+      }
+    ]
+  },
+  "msg": "Algolia sync batch received and logged successfully"
+}
