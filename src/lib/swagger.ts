@@ -26,6 +26,12 @@ export const getApiDocs = async () => {
             name: 'x-webhook-signature',
             description: 'Webhook signature for verifying the payload',
           },
+          ApiKeyAuth: {
+            type: 'apiKey',
+            in: 'header',
+            name: 'x-api-key',
+            description: 'Custom API Key for extension endpoints',
+          }
         },
       },
     },

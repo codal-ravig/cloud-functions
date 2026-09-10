@@ -76,6 +76,21 @@ export default function Home() {
               — Webhook endpoint
             </span>
           </li>
+          <li style={{ marginTop: "0.5rem" }}>
+            <code
+              style={{
+                background: "#e8e8e8",
+                padding: "0.25rem 0.5rem",
+                borderRadius: "4px",
+                fontSize: "0.9rem",
+              }}
+            >
+              POST /api/extensions/algolia-sync
+            </code>
+            <span style={{ marginLeft: "0.5rem", color: "#666" }}>
+              — Algolia Sync Debugger
+            </span>
+          </li>
         </ul>
       </div>
     </main>
